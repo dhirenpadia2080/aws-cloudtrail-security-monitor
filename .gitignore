@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+.venv/
+
+# AWS credentials
+.aws/
+credentials
+
+# Original CloudTrail logs
+*CloudTrail*.json

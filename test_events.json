@@ -1,0 +1,48 @@
+
+{
+  "Records": [
+    {
+      "eventTime": "2026-11-24T10:00:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "CreateAccessKey",
+      "sourceIPAddress": "203.0.113.10",
+      "userIdentity": {
+        "type": "IAMUser",
+        "userName": "test-user"
+      }
+    },
+    {
+      "eventTime": "2026-11-24T10:05:00Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "sourceIPAddress": "203.0.113.20",
+      "userIdentity": {
+        "type": "IAMUser",
+        "userName": "test-user"
+      },
+      "responseElements": {
+        "ConsoleLogin": "Failure"
+      }
+    },
+    {
+      "eventTime": "2026-11-24T10:10:00Z",
+      "eventSource": "cloudtrail.amazonaws.com",
+      "eventName": "StopLogging",
+      "sourceIPAddress": "203.0.113.30",
+      "userIdentity": {
+        "type": "IAMUser",
+        "userName": "test-user"
+      }
+    },
+    {
+      "eventTime": "2026-11-24T10:15:00Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "AuthorizeSecurityGroupIngress",
+      "sourceIPAddress": "203.0.113.40",
+      "userIdentity": {
+        "type": "IAMUser",
+        "userName": "test-user"
+      }
+    }
+  ]
+}
