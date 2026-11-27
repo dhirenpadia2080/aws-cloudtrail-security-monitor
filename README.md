@@ -1,4 +1,4 @@
-# AWS CloudTrail Security Monitor V2
+# AWS CloudTrail Security Monitor 
 
 A Python-based defensive cloud security project that analyzes AWS CloudTrail JSON logs and detects selected suspicious or security-sensitive activities.
 
